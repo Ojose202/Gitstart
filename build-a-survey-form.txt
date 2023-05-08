@@ -1,0 +1,115 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    
+    </head>
+    <body>
+      <main>
+        <h1 id="title">freeCodeCamp Survey Form <title>freeCodeCamp Survey Form</title></h1>
+        <link rel="stylesheet" href="styles.css" />
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        <form id="survey-form">
+        <div class="survey-form">
+          <fieldset>
+                 <label id="name-label">Name <input id="name" type="text" placeholder="Enter your name"required </label>
+          <label id="email-label">Email <input id="email" type="email" placeholder="Enter your email"required </label> 
+          <label id="number-label">Age(optional) <input id="number" type="number" min="12" max="89" placeholder="Age"required </label>
+   <p>Which option best describes your current role?</p>
+   <select id="dropdown" name="role">
+     <option value=""> Select current role</option>
+     <option value="1"> Student</option>
+     <option value="2"> Full Time Job</option>
+     <option value="3"> Full Time Learner</option>
+     <option value="3"> Prefer not to say</option>
+     <option value="3"> Other</option>
+     </select>
+     </div>          <label></label>
+          
+          </fieldset>
+           <label for="definitely">Would you recommend freeCodeCamp to a friend?<input id="definitely" type="radio" name="recommendation" value="definitely" /> Definitely</label>
+           <label  for="maybe"><input id="maybe" type="radio" name="recommendation" value="Maybe/> Maybe</label>
+            <label  for="not sure"><input id="not sure" type="radio" name="recommendation" value="Not Sure" /> Not sure</label>
+<fieldset>
+            <label for="front-end projects">What is your favorite feature of freeCodeCamp?
+
+          <input id="front-end projects" type="checkbox" required name="front-end projects" value="form"> Front-end Projects</label>
+           <label for="back-end projects">
+          <input id="back-end projects" type="checkbox" required name="back-end projects" value="form"> Back-end Projects</label>
+           <label for="data visualization">
+          <input id="data visualization" type="checkbox" required name="data visualization" value="form"> Data Visualization</label>
+           <label for="challenges">
+          <input id="challenges" type="checkbox" required name="challenges" value="form"> Challenges</label>
+           <label for="open source community">
+          <input id="open source community" type="checkbox" required name="open source community" value="form" value="form"> Open Source Community</label>
+           <label for="gitter help rooms">
+          <input id="gitter help rooms" type="checkbox" required name="gitter help rooms" value="form"> Gitter help rooms</label>
+            <label for="videos">
+          <input id="videos" type="checkbox" required name="videos" value="form"> Videos</label>
+          <label for="city meetups">
+          <input id="city meetups" type="checkbox" required name="city meetups" value="form"> City Meetups</label>
+          <label for="wiki">
+          <input id="wiki" type="checkbox" required name="wiki" value="form"> Wiki</label>
+          <label for="forum">
+          <input id="forum" type="checkbox" required name="forum" value="form"> Forum</label>
+          <label for="additional courses">
+          <input id="additional courses" type="checkbox" required name="additional courses" value="form"> Additional Courses</label>
+          </fieldset>
+          <fieldset>
+                        <label for="comments">Any comments or suggestions
+          <textarea id="comments" name="comments" rows="3" cols="30" placeholder="Enter your comments here..."></textarea>  
+          </fieldset>       
+              <input id="submit" type="submit" value="Submit" /> 
+              </form>
+</main>
+</body>
+  </html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #1b1b32;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin:0.5rem 0 ;
+}
+.survey-form{padding:2;
+ text-align:left;
+}
+label,input{display:flex;
+  flex-direction:column
+  }
+  fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;}
+  fieldset:last-of-type {
+  border-bottom: none;}
+  input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+
+** end of undefined **
+
